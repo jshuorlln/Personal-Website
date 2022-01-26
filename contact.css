@@ -1,0 +1,82 @@
+.background{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+.Who{
+    position:absolute;
+    top: 15px;
+    left: 40px;
+}
+.panex{
+    position:absolute;
+    top: -110px;
+    left: 370px;
+}
+.doh{
+    position:absolute;
+    top: 10px;
+    left: 930px;
+}
+.txb{
+    position:absolute;
+    top: 300px;
+    left: 0px;
+}
+.txb2{
+    position:absolute;
+    top: 300px;
+    left: 220px;
+}
+.txb3{
+    position:absolute;
+    top: 300px;
+    left: 490px;
+}
+.txb4{
+    position:absolute;
+    top: 300px;
+    left:925px;
+}
+.conhot{
+    position:absolute;
+    top: 375px;
+    left: 10px;
+}
+.hotme{
+    position: absolute;
+    top:355px;
+    left: 350px;
+    font: italic bold 35px/40px Segoe UI, serif;
+    color: #FF2424;
+}
+.navbar{
+    position: absolute;
+      top: 285px;
+      left: 0px;
+      width: 1280px;
+      font-size: 22.5px;
+      font-family:Segoe UI;
+      font-weight: bold;
+  }
+  .navbar ul
+  {
+      display: inline-flex;
+      list-style: none;
+  }
+  ul li a{
+      text-decoration: none;
+      color: #707070;
+      padding: 50px;
+      border: 1px solid transparent;
+      transition: 0.6s ease;
+    }
+    
+    ul li a:hover{
+      color: #80E2FF;
+      -webkit-text-stroke: 1px black;
+    }
+    ul li.active a{
+      color: #80E2FF;
+      -webkit-text-stroke: 1px black;
+    }

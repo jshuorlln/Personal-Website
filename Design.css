@@ -1,0 +1,148 @@
+.backg{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+.logo{
+    position:absolute;
+    top: 15px;
+    left: 40px;
+}
+.logo1{
+    position:absolute;
+    top: -110px;
+    left: 370px;
+}
+.logo2{
+    position:absolute;
+    top: 10px;
+    left: 930px;
+}
+.textb{
+    position:absolute;
+    top: 300px;
+    left: 0px;
+}
+.textb2{
+    position:absolute;
+    top: 300px;
+    left: 220px;
+}
+.textb3{
+    position:absolute;
+    top: 300px;
+    left: 490px;
+}
+.textb4{
+    position:absolute;
+    top: 300px;
+    left:940px;
+}
+.lavid{
+    position:absolute;
+    top: 355px;
+    left:80px;
+}
+.actcase{
+    position:absolute;
+    top: 420px;
+    left:210px;
+}
+.about{
+    position:absolute;
+    top: 660px;
+    left:35px;
+}
+.safe{
+    position: absolute;
+    top: 375px;
+    left:828px;
+}
+.safetyavo{
+    position: absolute;
+    top: 470px;
+    left:710px;
+}
+.lat{
+    position: absolute;
+    text-align: center;
+    top:360px;
+    left: 845px;
+    font-size: 25px;
+    font: italic bold 25px/30px Segoe UI, serif;
+    color: #707070;
+}
+
+.laco{
+    position: absolute;
+    top:340px;
+    left: 120px;
+    font-size: 25px;
+    font: italic bold 25px/30px Segoe UI, serif;
+    color: #707070;
+}
+.abt{
+    position: absolute;
+    top:640px;
+    left: 235px;
+    font-size: 25px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: #707070;
+}
+.abtdes{
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: #707070;
+}
+.safedes{
+    position: absolute;
+    top: 500px;
+    left: 705px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Segoe UI;
+    color: #707070;
+}
+.update{
+    position: absolute;
+    top: 420px;
+    left: 510px;
+    font-size: 12px;
+    font-family: Segoe UI;
+    color: #707070;
+}
+.navbar{
+  position: absolute;
+    top: 285px;
+    left: 0px;
+    width: 1280px;
+    font-size: 22.5px;
+    font-family:Segoe UI;
+    font-weight: bold;
+}
+.navbar ul
+{
+    display: inline-flex;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #707070;
+    padding: 50px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+  }
+  
+  ul li a:hover{
+    color: #80E2FF;
+    -webkit-text-stroke: 1px black;
+  }
+  ul li.active a{
+    color: #80E2FF;
+    -webkit-text-stroke: 1px black;
+  }

@@ -1,0 +1,96 @@
+.bground{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+.lg{
+    position:absolute;
+    top: 15px;
+    left: 40px;
+}
+.lg1{
+    position:absolute;
+    top: -110px;
+    left: 370px;
+}
+.lg2{
+    position:absolute;
+    top: 10px;
+    left: 930px;
+}
+.txt{
+    position:absolute;
+    top: 300px;
+    left: 0px;
+}
+.txt2{
+    position:absolute;
+    top: 300px;
+    left: 220px;
+}
+.txt3{
+    position:absolute;
+    top: 300px;
+    left: 490px;
+}
+.txt4{
+    position:absolute;
+    top: 300px;
+    left:940px;
+}
+.vac{
+    position:absolute;
+    top: 470px;
+    left: 35px;
+}
+.asta{
+    position:absolute;
+    top: 655px;
+    left: 85px;
+}
+.source{
+    position: absolute;
+    top: 420px;
+    left: 35px;
+    font-size: 15px;
+    font-family: Segoe UI;
+    color: #707070;
+}
+.updated{
+    position: absolute;
+    top: 420px;
+    left: 1060px;
+    font-size: 15px;
+    font-family: Segoe UI;
+    color: #707070;
+}
+.navbar{
+    position: absolute;
+      top: 285px;
+      left: 0px;
+      width: 1280px;
+      font-size: 22.5px;
+      font-family:Segoe UI;
+      font-weight: bold;
+  }
+  .navbar ul
+  {
+      display: inline-flex;
+      list-style: none;
+  }
+  ul li a{
+      text-decoration: none;
+      color: #707070;
+      padding: 50px;
+      border: 1px solid transparent;
+      transition: 0.6s ease;
+    }
+    
+    ul li a:hover{
+      color: #80E2FF;
+      -webkit-text-stroke: 1px black;
+    }
+    ul li.active a{
+      color: #80E2FF;
+      -webkit-text-stroke: 1px black;
+    }

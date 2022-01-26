@@ -1,0 +1,136 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url("haik.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: Verdana, Tahoma, sans-serif;
+    }
+  .reg{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+  }
+  .form{
+      top: -50px;
+      left: 150px;
+  }
+  .reg .form{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  .reg .form::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+  }
+  .reg1 form .wonder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+  }
+  form .wonder .box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  form .box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .wonder .box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .wonder .box input:focus,
+  .wonder .box input:valid{
+    border-color: black;
+  }
+   form .anime .gendT{
+    font-size: 20px;
+    font-weight: 500;
+   }
+   form .categ{
+     display: flex;
+     width: 80%;
+     margin: 14px 0 ;
+     justify-content: space-between;
+   }
+   form .categ label{
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+   }
+   form .categ label .dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: white;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+  #dot:checked ~ .categ label .one,
+  #doot:checked ~ .categ label .two,
+  #dooot:checked ~ .categ label .three{
+     background: black;
+   }
+   form input[type="radio"]{
+     display: none;
+   }
+   form .button{
+     height: 45px;
+     margin: 35px 0
+   }
+   form .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: black;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 18px;
+     font-weight: 100;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background-color: white;
+   }
+   form .button input:hover{
+    background-color: black;
+    color: white;
+  }
+  form .box{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    form .categ{
+      width: 100%;
+    }
+    .atin form .wonder{
+      max-height: 300px;
+    }
+  
